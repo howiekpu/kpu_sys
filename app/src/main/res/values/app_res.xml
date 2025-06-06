@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义颜色-->
+    <color name="c_theme">#473F97</color>
+    <color name="c_accent">@color/c_theme</color>
+    <color name="c_background">#F1F0F5</color>
+    <color name="c_divider">#F1F0F5</color>
+    <color name="c_gray">#CCCCCC</color>
+    <color name="c_gray_1">#525252</color>
+    <color name="c_gray_2">#808080</color>
+    <color name="c_sky">#5BC0F9</color>
+    <color name="c_blue_2">#1A96FE</color>
+    <color name="c_red">#E84034</color>
+    <color name="c_yellow">#FFF100</color>
+    <color name="c_orange">#FFAA59</color>
+    <color name="c_warn">#ed6a0c</color>
+    <color name="c_green">#008f00</color>
+    <color name="c_coupon">#f39b00</color>
+    <color name="c_pink">#fd3667</color>
+
+    <color name="c_008f00">#008f00</color>
+    <color name="c_009051">#009051</color>
+    <color name="c_919191">#919191</color>
+    <color name="c_941100">#941100</color>
+    <color name="c_ff0000">#ff0000</color>
+    <color name="c_ff7e79">#ff7e79</color>
+    <color name="c_fff7f5">#fff7f5</color>
+
+    <!--自定义字号-->
+    <dimen name="f_page_title">20sp</dimen>
+    <dimen name="f_huge">20sp</dimen>
+    <dimen name="f_large">16sp</dimen>
+    <dimen name="f_middle">14sp</dimen>
+    <dimen name="f_small">12sp</dimen>
+    <dimen name="f_tiny">10sp</dimen>
+
+    <!--自定义尺寸-->
+    <dimen name="d_page">12dp</dimen>
+    <dimen name="d_page_0d5">6dp</dimen>
+    <dimen name="d_text">3dp</dimen>
+    <dimen name="d_modular">14dp</dimen>
+    <dimen name="d_modular_inside">10dp</dimen>
+    <dimen name="d_modular_inside_0d5">5dp</dimen>
+    <dimen name="d_modular_inside_0d25">2.5dp</dimen>
+    <dimen name="d_line_w">1dp</dimen>
+    <dimen name="s_top_h">46dp</dimen>
+    <dimen name="s_button_large_h">46dp</dimen>
+    <dimen name="s_tab_h">40dp</dimen>
+    <dimen name="s_menu_h">49dp</dimen>
+    <dimen name="s_list_menu_h">48dp</dimen>
+
+    <!--自定义样式-->
+
+    <style name="tab_layout_style_home">
+        <item name="android:textSize">@dimen/f_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/c_gray_1</item>
+    </style>
+
+    <style name="tab_layout_style_1">
+        <item name="android:textSize">@dimen/f_large</item>
+        <item name="android:textColor">@color/c_gray_1</item>
+    </style>
+
+    <style name="tab_layout_style_2">
+        <item name="android:textSize">@dimen/f_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/c_gray_2</item>
+    </style>
+
+    <style name="tab_layout_style_3">
+        <item name="android:textSize">@dimen/f_middle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tab_layout_style_4">
+        <item name="android:textSize">@dimen/f_middle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/c_gray_2</item>
+    </style>
+
+    <style name="bt_large_style">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_bt_large_theme</item>
+        <item name="android:textSize">@dimen/f_large</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="bt_large_style_gray">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_bt_large_gray</item>
+        <item name="android:textSize">@dimen/f_large</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="tv_line_long_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/d_line_w</item>
+        <item name="android:background">@color/c_divider</item>
+    </style>
+
+    <style name="tv_line_long_left_page_style" parent="tv_line_long_style">
+        <item name="android:layout_marginLeft">@dimen/d_page</item>
+    </style>
+
+    <style name="tv_line_short_style" parent="tv_line_long_style">
+        <item name="android:layout_marginLeft">@dimen/d_page</item>
+        <item name="android:layout_marginRight">@dimen/d_page</item>
+    </style>
+
+</resources>

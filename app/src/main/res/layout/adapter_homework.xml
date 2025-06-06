@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Today"
+            android:textColor="@color/c_theme"
+            android:textSize="@dimen/f_huge" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@drawable/xmlbg_fff1ec_r15dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <LinearLayout
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="40dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Detail"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/f_large" />
+                <TextView
+                    android:id="@+id/tv_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subject"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/c_gray_2"
+                    android:textSize="@dimen/f_middle" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</RelativeLayout>
